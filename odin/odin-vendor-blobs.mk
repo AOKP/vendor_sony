@@ -52,11 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/odin/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/odin/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/odin/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/sony/odin/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/sony/odin/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/sony/odin/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/sony/odin/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/odin/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/odin/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
     vendor/sony/odin/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
@@ -84,27 +79,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/odin/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/odin/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/odin/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/sony/odin/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/sony/odin/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/sony/odin/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/sony/odin/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/sony/odin/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/sony/odin/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/odin/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/odin/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
-    vendor/sony/odin/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/sony/odin/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/sony/odin/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/sony/odin/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/sony/odin/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/sony/odin/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/odin/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/odin/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/odin/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/odin/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/odin/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/odin/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/sony/odin/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/odin/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/odin/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -112,8 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/odin/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/odin/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/sony/odin/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/odin/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
     vendor/sony/odin/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/odin/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/odin/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -122,16 +101,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/odin/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/odin/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/odin/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/sony/odin/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/odin/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/odin/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/odin/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/odin/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/odin/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/sony/odin/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
-    vendor/sony/odin/proprietary/lib/libdss.so:system/lib/libdss.so \
-    vendor/sony/odin/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/sony/odin/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/odin/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/odin/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
@@ -152,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/odin/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/odin/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/sony/odin/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/odin/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/odin/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/odin/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
@@ -162,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/odin/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/odin/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/odin/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/odin/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/odin/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/odin/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \

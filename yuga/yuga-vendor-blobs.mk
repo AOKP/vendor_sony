@@ -52,11 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/yuga/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
@@ -86,27 +81,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/sony/yuga/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/yuga/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/yuga/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/yuga/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/yuga/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/yuga/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/yuga/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/yuga/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/yuga/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/sony/yuga/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/yuga/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -114,8 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/yuga/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/yuga/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/sony/yuga/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/yuga/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
     vendor/sony/yuga/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/yuga/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/yuga/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -124,16 +103,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/yuga/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/yuga/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/yuga/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/sony/yuga/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/yuga/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/yuga/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/yuga/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/yuga/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/sony/yuga/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
-    vendor/sony/yuga/proprietary/lib/libdss.so:system/lib/libdss.so \
-    vendor/sony/yuga/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/sony/yuga/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/yuga/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
@@ -154,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yuga/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/yuga/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/sony/yuga/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
@@ -164,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/yuga/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/yuga/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/yuga/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/yuga/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/yuga/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
