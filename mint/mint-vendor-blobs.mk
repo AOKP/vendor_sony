@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/mint/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/mint/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/mint/proprietary/bin/rmi4_fwloader:system/bin/rmi4_fwloader \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -142,8 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/mint/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/mint/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/mint/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/mint/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    vendor/sony/mint/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/mint/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
