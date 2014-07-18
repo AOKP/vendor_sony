@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/radish:system/bin/radish \
     vendor/sony/shinano-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/shinano-common/proprietary/bin/sct_service:system/bin/sct_service \
-    vendor/sony/shinano-common/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/shinano-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/shinano-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
@@ -43,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
@@ -54,22 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/sony/shinano-common/proprietary/etc/firmware/BCM4339.hcd:system/etc/firmware/BCM4339.hcd \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -80,29 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/sony/shinano-common/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
@@ -130,55 +90,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
     vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
     vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/shinano-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/shinano-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     vendor/sony/shinano-common/proprietary/etc/sec_config:system/etc/sec_config \
-    vendor/sony/shinano-common/proprietary/etc/sforce/sforce_coef_music.bin:system/etc/sforce/sforce_coef_music.bin \
-    vendor/sony/shinano-common/proprietary/etc/sforce/sforce_coef_video.bin:system/etc/sforce/sforce_coef_video.bin \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/FMSpeaker_btm.preset:system/etc/tfa98xx/FMSpeaker_btm.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/FMSpeaker_top.eq:system/etc/tfa98xx/FMSpeaker_top.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/FMSpeaker_top.preset:system/etc/tfa98xx/FMSpeaker_top.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerRing_btm.eq:system/etc/tfa98xx/HiFiSpeakerRing_btm.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerRing_btm.preset:system/etc/tfa98xx/HiFiSpeakerRing_btm.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerRing_top.eq:system/etc/tfa98xx/HiFiSpeakerRing_top.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerRing_top.preset:system/etc/tfa98xx/HiFiSpeakerRing_top.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerSforce_btm.eq:system/etc/tfa98xx/HiFiSpeakerSforce_btm.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerSforce_btm.preset:system/etc/tfa98xx/HiFiSpeakerSforce_btm.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerSforce_top.eq:system/etc/tfa98xx/HiFiSpeakerSforce_top.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeakerSforce_top.preset:system/etc/tfa98xx/HiFiSpeakerSforce_top.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeaker_btm.eq:system/etc/tfa98xx/HiFiSpeaker_btm.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeaker_btm.preset:system/etc/tfa98xx/HiFiSpeaker_btm.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
     vendor/sony/shinano-common/proprietary/etc/tfa98xx/TFA9890.patch:system/etc/tfa98xx/TFA9890.patch \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.eq:system/etc/tfa98xx/VoiceCallSpeaker_btm.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/shinano-common/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
-    vendor/sony/shinano-common/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_halctrl_plugin.so:system/lib/camera/libexcal_halctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_idtctrl_plugin.so:system/lib/camera/libexcal_idtctrl_plugin.so \
-    vendor/sony/shinano-common/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/sony/shinano-common/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
-    vendor/sony/shinano-common/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
     vendor/sony/shinano-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/shinano-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/shinano-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_chokoball.so:system/lib/libcacao_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
-    vendor/sony/shinano-common/proprietary/lib/libcacao_face.so:system/lib/libcacao_face.so \
-    vendor/sony/shinano-common/proprietary/lib/libcacao_imageconv.so:system/lib/libcacao_imageconv.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_jpeg.so:system/lib/libcacao_jpeg.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_pal.so:system/lib/libcacao_pal.so \
@@ -208,8 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/shinano-common/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
-    vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
-    vendor/sony/shinano-common/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
     vendor/sony/shinano-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/shinano-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/shinano-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
@@ -234,7 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_pm8941_tz.so:system/lib/sysmon/sysmon_pm8941_tz.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_quiet_therm.so:system/lib/sysmon/sysmon_quiet_therm.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_torch_limit.so:system/lib/sysmon/sysmon_torch_limit.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_interrupt.so:system/lib/sysmon/sysmon_tsens_interrupt.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
@@ -248,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor8.so:system/lib/sysmon/sysmon_tsens_tz_sensor8.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor9.so:system/lib/sysmon/sysmon_tsens_tz_sensor9.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_usb_current_limit_value.so:system/lib/sysmon/sysmon_usb_current_limit_value.so \
-    vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_v_therm0.so:system/lib/sysmon/sysmon_v_therm0.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
     vendor/sony/shinano-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
@@ -291,8 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
@@ -370,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -391,12 +314,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
